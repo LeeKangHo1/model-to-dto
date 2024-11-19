@@ -1,4 +1,4 @@
-package dto2;
+package dto;
 
 public class OrderOptionDTO {
     private int id;
