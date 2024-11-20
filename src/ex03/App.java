@@ -38,7 +38,8 @@ public class App {
 
         // 예외처리에 아주 많이 사용할 예정
         String data3 = null; // 값이 있으면 그 값을 리턴
-        String r3 = Optional.ofNullable(data3).orElseThrow(() -> new RuntimeException("값이 없는데?? 조심해 너!"));
+        String r3 = Optional.ofNullable(data3)
+                .orElseThrow(() -> new RuntimeException("값이 없는데?? 조심해 너!"));
         System.out.println("r3 : " + r3);
     }
 }

@@ -41,7 +41,9 @@ public class OrderDetailDTO {
             List<OrderOption> temp = new ArrayList<>();
 
             for (OrderOption option : options) {
-                if (id == option.getProduct().getId()) temp.add(option);
+                if (id == option.getProduct().getId()) {
+                    temp.add(option);
+                }
             }
 
             OrderProductDTO product = new OrderProductDTO(temp);

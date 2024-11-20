@@ -10,7 +10,7 @@ public class SortApp {
 
         nums.stream()
                 .sorted()
-                .distinct() // 중복 제거, 순서는 관계 없지만 상식적으로 정률 후 중복제거
+                .distinct() // 중복 제거, 순서는 관계 없지만 상식적으로 정렬 후 중복제거
                 .forEach(integer -> System.out.println(integer));
     }
 }

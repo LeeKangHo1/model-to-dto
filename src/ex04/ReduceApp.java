@@ -16,14 +16,12 @@ public class ReduceApp {
 
         int sum2 = nums.stream()
                 // map과 다른 점 -> 5라는 인수 사용 가능
-                .reduce(5, (prev, next)-> {
-                    System.out.println("prev : "+prev);
-                    System.out.println("next : "+next);
+                .reduce(5, (prev, next) -> {
+                    System.out.println("prev : " + prev);
+                    System.out.println("next : " + next);
                     System.out.println("----------------");
-                    return prev+next;
+                    return prev + next;
                 });
-
         System.out.println(sum2);
-
     }
 }
