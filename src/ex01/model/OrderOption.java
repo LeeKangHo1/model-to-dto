@@ -1,10 +1,10 @@
-package model;
+package ex01.model;
 
 public class OrderOption {
     private int id;
-    private String optionName; // 하얀티
-    private int qty; // 5개
-    private int totalPrice; // 10000원
+    private String optionName; //
+    private int qty; // quantity
+    private int totalPrice;
 
     private Product product;
     private Order order;

@@ -1,7 +1,7 @@
-package dto;
+package ex01.dto;
 
 import lombok.Data;
-import model.ProductOption;
+import ex01.model.ProductOption;
 
 import java.util.ArrayList;
 import java.util.List;

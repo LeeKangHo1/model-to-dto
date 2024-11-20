@@ -1,11 +1,13 @@
+package ex01;
+
 import com.google.gson.Gson;
-import dto.OrderDetailDTO;
-import dto.ProductDTO;
-import dto.ProductDetailDTO;
-import model.Order;
-import model.OrderOption;
-import model.Product;
-import model.ProductOption;
+import ex01.dto.OrderDetailDTO;
+import ex01.dto.ProductDTO;
+import ex01.dto.ProductDetailDTO;
+import ex01.model.Order;
+import ex01.model.OrderOption;
+import ex01.model.Product;
+import ex01.model.ProductOption;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -80,6 +82,7 @@ public class App1 {
         OrderDetailDTO orderDetailDTO = new OrderDetailDTO(or1Options);
         String r3 = gson.toJson(orderDetailDTO);
         System.out.println(r3);
+
 
 
     }
